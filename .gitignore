@@ -1,0 +1,53 @@
+# Ignore all files in the gradle folder except for the wrapper package
+gradle/*
+!gradle/wrapper/gradle-wrapper.properties
+!gradle/wrapper/gradle-wrapper.jar
+
+# Ignore build directories
+/build/
+/app/build/
+
+# Ignore IntelliJ IDEA project files
+/.idea
+*.iml
+
+# Ignore Android Studio specific files
+/.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore generated files
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Ignore OS-specific files
+Thumbs.db
+.DS_Store
+
+# Ignore miscellaneous files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+*.rej
+*.sublime-project
+*.sublime-workspace
