@@ -1,5 +1,6 @@
 # Ignore all files in the gradle folder except for the wrapper package
 gradle/*
+# Ignore all files in the gradle folder except for the wrapper package
 !gradle/wrapper/gradle-wrapper.properties
 !gradle/wrapper/gradle-wrapper.jar
 
